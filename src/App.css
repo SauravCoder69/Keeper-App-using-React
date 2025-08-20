@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html{
+  font-family: "Montserrat", sans-serif;
+
+}
+.body{
+  background-color: #eee;
+  padding:0px 16px;
+}
+header {
+  background-color: #fbbc04; /* Yellow bar */
+  padding:16px  32px;
+ color: white;
+ margin: auto -16px;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 200;
+
+  font-family: "McLaren",cursive;
+}
+
+.note {
+  background: #fff;                
+  border-radius: 7px;             
+  box-shadow: 0 2px 5px #ccc;  
+  padding: 10px;                   
+  margin: 16px;                   
+  width: 240px;                    
+  float: left; 
+}           
+
+.note h1 {
+  font-size: 1.1rem;              
+  margin-bottom: 8px;            
+  font-weight: bold;
+}
+
+.note p {
+  font-size: 1rem;                
+  color: #444;                   
+  line-height: 1.4;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+ 
+}
+
+footer p {
+  color: #ccc;
+}
+
+
+.delete-btn {
+  position: absolute; /* top-right me card ke andar rahega */
+  top: 10px;
+  right: 10px;
+  background-color: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #9a0007;
+  transform: scale(1.05);
+}
+
+
+.note {
+  background: #fff;                
+  border-radius: 7px;             
+  box-shadow: 0 2px 5px #ccc;  
+  padding: 10px;                   
+  margin: 16px;                   
+  width: 240px;                    
+  float: left; 
+  position: relative; /* ye add karo */
+}           
+
+.note h1 {
+  font-size: 1.1rem;              
+  margin-bottom: 8px;            
+  font-weight: bold;
+}
+
+.note p {
+  font-size: 1rem;                
+  color: #444;                   
+  line-height: 1.4;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.delete-btn {
+  position: absolute; /* top-right me card ke andar rahega */
+  top: 10px;
+  right: 10px;
+  background-color: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #9a0007;
+  transform: scale(1.05);
+}
